@@ -23,20 +23,18 @@
 
 5. Give an example of when you could use polymorphism.
 
-          A class Animal - Cat be a subclass of Animal. So, any cat IS animal. Here, Cat satisfies the IS-A relationship for its own type as well as its super class Animal.
+      A class Animal - Cat be a subclass of Animal. So, any cat IS animal. Here, Cat satisfies the IS-A relationship for its own type as well as its super class Animal.
 
 # Composition
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
 
-          Composition is about ownership. When we assign an object to be part of the composition of another object.
+      Composition is about ownership. When we assign an object to be part of the composition of another object.
 
 7. When would you use composition? Provide a simple example in Java.
 
-          The main reason to use composition is that it allows you to reuse code.
-
-          A car is not an engine; it has one. 
-
+           
+      The main reason to use composition is that it allows you to reuse code. A car is not an engine; it has one.
 
 8. What is/are the advantage(s) of using composition?
           1) Java doesn't support multiple inheritance.
