@@ -39,9 +39,9 @@
 8. What is/are the advantage(s) of using composition?
    - Java doesn't support multiple inheritance.
    - Composition offers better test-ability of a class than Inheritance. If one class is composed of another class, you can easily create Mock Object representing composed class for sake of testing. Inheritance doesn't provide this. 
-  - Many object oriented design patterns favors Composition over Inheritance e.g. to change Context’s behavior, without touching context code. 
-  - Though both Composition and Inheritance allows you to reuse code, one of the disadvantage of Inheritance is that it breaks encapsulation. If sub class is depending on super class behavior for its operation, it suddenly becomes fragile. 
-  - Another reason of favoring Composition over inheritance is flexibility. If you use Composition you are flexible enough to replace implementation of Composed class with better and improved version. 
+    - Many object oriented design patterns favors Composition over Inheritance e.g. to change Context’s behavior, without touching context code. 
+    - Though both Composition and Inheritance allows you to reuse code, one of the disadvantage of Inheritance is that it breaks encapsulation. If sub class is depending on super class behavior for its operation, it suddenly becomes fragile. 
+    - Another reason of favoring Composition over inheritance is flexibility. If you use Composition you are flexible enough to replace implementation of Composed class with better and improved version. 
 
 9. What happens to the behaviours when the object composed of them is destroyed?
           In composition, the object composed of other behaviours owns those behaviours. This means that when the object is destroyed all of its behaviours are also destroyed.
