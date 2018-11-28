@@ -45,7 +45,7 @@ The Rhino class is considered to be polymorphic since this has multiple inherita
 
 7. When would you use composition? Provide a simple example in Java.
 
-      The main reason to use composition is that it allows you to reuse code. A person is not an job; it has one.
+      The main reason to use composition is that it allows you to reuse code and provide a relationship. A person is not an job; it has one.
       
             public class Job {
                 private String role;
