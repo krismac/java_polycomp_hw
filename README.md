@@ -17,10 +17,10 @@
   
 The Rhino class is considered to be polymorphic since this has multiple inheritance. Following are true for the above   examples
  
-    A Rhino IS-A Animal
-    A Rhino IS-Wildlife
-    A Rhino IS-A Rhino
-    A Rhino IS-A Object
+   - A Rhino IS - A Animal
+   - A Rhino IS - Wildlife
+   - A Rhino IS - A Rhino
+   - A Rhino IS - A Object
 
 3. What can we use to implement polymorphism in Java?
 
