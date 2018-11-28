@@ -9,14 +9,12 @@
 
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
 
-    We can treat an instance of a class as if it is also another class/type at the same time.
-    
-    '''''
-    public interface Wildlife{}
-    public class Animal{}
-    public class Rhino extends Animal implements Wildlife{}
-    ,,,,,,
- 
+  We can treat an instance of a class as if it is also another class/type at the same time.
+   
+        public interface Wildlife{}
+        public class Animal{}
+        public class Rhino extends Animal implements Wildlife{}
+  
 The Rhino class is considered to be polymorphic since this has multiple inheritance. Following are true for the above   examples
  
     A Rhino IS-A Animal
