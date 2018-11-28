@@ -56,7 +56,7 @@ The Rhino class is considered to be polymorphic since this has multiple inherita
                     return role;
                 }
 
-this can be given a relationship to person
+      this can be given a relationship to person
 
             public class Person {
 
